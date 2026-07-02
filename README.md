@@ -1,6 +1,6 @@
 # homebrew-tap
 
-Gitpod's tap for Homebrew
+WarpStream's tap for Homebrew
 
 ## Tapping the repository
 
