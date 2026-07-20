@@ -1,13 +1,13 @@
 class Warpstream < Formula
   desc "WarpStream Kafka-compatible agent"
   homepage "https://warpstream.com"
-  version "v821"
+  version "v822"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://warpstream-public-us-east-1.s3.us-east-1.amazonaws.com/warpstream_agent_releases/warpstream_agent_darwin_arm64_v821.tar.gz"
-      sha256 "4f6af011c16684310b95dbc439de83d6ee8ead4b724d076481d3429d83045528"
+      url "https://warpstream-public-us-east-1.s3.us-east-1.amazonaws.com/warpstream_agent_releases/warpstream_agent_darwin_arm64_v822.tar.gz"
+      sha256 "a979fac50fae6736d096d0118b33bad482184af5cffa8e3bf5747e339f4a7c36"
 
       def install
         bin.install "warpstream_agent_darwin_arm64" => "warpstream"
@@ -16,8 +16,8 @@ class Warpstream < Formula
     end
 
     on_intel do
-      url "https://warpstream-public-us-east-1.s3.us-east-1.amazonaws.com/warpstream_agent_releases/warpstream_agent_darwin_amd64_v821.tar.gz"
-      sha256 "0d14018e2111530de48dfc687f16cec67f1219761c3673f5ef71f97695f54baa"
+      url "https://warpstream-public-us-east-1.s3.us-east-1.amazonaws.com/warpstream_agent_releases/warpstream_agent_darwin_amd64_v822.tar.gz"
+      sha256 "cff0de43fb2c4dfdffffcd66bcc9fe57ddc6a71c987ed0ff07eeb52d956babf4"
 
       def install
         bin.install "warpstream_agent_darwin_amd64" => "warpstream"
@@ -28,8 +28,8 @@ class Warpstream < Formula
 
   on_linux do
     on_arm do
-      url "https://warpstream-public-us-east-1.s3.us-east-1.amazonaws.com/warpstream_agent_releases/warpstream_agent_linux_arm64_v821.tar.gz"
-      sha256 "39d25fefdec8d5e217b0fb84a6339a887be561a7480d7ce9d121ca82a308542c"
+      url "https://warpstream-public-us-east-1.s3.us-east-1.amazonaws.com/warpstream_agent_releases/warpstream_agent_linux_arm64_v822.tar.gz"
+      sha256 "8d22c44352f9240504427972fd4304d93328477bf2629831ad09fb412fbce35e"
 
       def install
         bin.install "warpstream_agent_linux_arm64" => "warpstream"
@@ -38,8 +38,8 @@ class Warpstream < Formula
     end
 
     on_intel do
-      url "https://warpstream-public-us-east-1.s3.us-east-1.amazonaws.com/warpstream_agent_releases/warpstream_agent_linux_amd64_v821.tar.gz"
-      sha256 "9fef29753769d107c111aae54dc81397a22305d8fd5bf077da1d60ac3f0d3e59"
+      url "https://warpstream-public-us-east-1.s3.us-east-1.amazonaws.com/warpstream_agent_releases/warpstream_agent_linux_amd64_v822.tar.gz"
+      sha256 "7886a4771b948548710c6c23134729074b1c5b8cfbe26a78831da2f420e20a66"
 
       def install
         bin.install "warpstream_agent_linux_amd64" => "warpstream"
